@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body{
+    background-color: rgba(255, 0, 0);
+}
+
+.headRand{
+    background-color: rgb(127, 17, 17);
+    display: flex;
+    height: 4vh;
+    gap: 1.5rem;
+}
+
+.phone{
+    display: flex;
+    color: white;
+    padding: 7px 0px 0px 15px;
+    margin-left: 30vh;
+    gap: 5px;
+}
+
+.email{
+    display: flex;
+    color: white;
+    padding-top: 7px;
+    gap: 5px;
+}
+
+.navbar{
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo{
+    height: 100%;
+    width: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.img-logo{
+    height: 100%;
+    width: 50%;
+    background-image: url("logo2.jpg");
+    background-size: 100% 100%;
+
+}
+
+.text-logo{
+    width: 11vh;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.page-link{
+    width: 82vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.page-link>ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.page-link>ul>li:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.page-link>ul>li:nth-child(1){
+    color: red;
+}
+
+.scale{
+    height: 5vh;
+    background-color: white;
+}
+
+.home-body-content{
+    height: 80vh;
+    width: 80%;
+    /* background-color: black; */
+    margin-left: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img-body-content{
+    height: 80vh;
+    width: 50%;
+}
+
+.img-main{
+    height: 80%;
+    width: 75vh;
+    background-image: url("main-img.png");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding-top: 13vh;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+
+.info-text>h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.sign-in{
+    height: 43vh;
+    width: 20%;
+    background-color: #ffffff;
+    line-height: 50px;
+    padding: 1.5rem;
+    border-radius: 6px;
+}
+
+.sign-in>form>input{
+    height: 20px;
+    width: 95%;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(102, 99, 99);
+    padding: 8px;
+    margin-top: 20px;
+    background-color: #e2dfdf;
+}
+
+.login{
+    text-align: end;
+}
+
+.login>a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.login>a:hover{
+    text-decoration: underline;
+}
+
+.sign-in>form>button{
+    height: 40px;
+    width: 31vmin;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.direct-login{
+    height: 50px;
+    width: 30vmin;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login-google{
+    height: 100%;
+    width: 25%;
+    background-image: url("google.png");
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.login-instagram{
+    height: 95%;
+    width: 25%;
+    background-image: url("instagram.png");
+    background-size: 100% 100%;
+    cursor: pointer;
+}

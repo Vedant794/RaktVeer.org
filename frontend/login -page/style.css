@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body {
+    padding: 6rem 10rem 0rem 10rem;
+}
+
+.container {
+    height: 80vh;
+    width: 150vh;
+    background-color: #eee7ed;
+    border-radius: 55px;
+    background: #d043c4;
+    box-shadow: 41px -41px 82px #6d6a6d,
+        -41px 41px 82px #ffffff;
+    display: flex;
+}
+
+.part1 {
+    height: 100%;
+    width: 52%;
+
+
+}
+
+.part1-img {
+    background-image: url("bg\ image.jpg");
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    border-radius: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.part1-img>p {
+    font-size: 20vmin;
+    font-family: Arial;
+    font-weight: bold;
+    -webkit-text-stroke: 0.5rem rgb(30, 29, 63);
+    color: transparent;
+}
+
+.part2 {
+    height: 100%;
+    width: 48%;
+    text-align: center;
+}
+
+.part2>p {
+    font-size: 5rem;
+    font-family: Arial;
+    color: rgb(75, 19, 126);
+
+}
+
+.form-detail {
+    margin: 16vh 0vh 0vh 0vh;
+    line-height: 6vmin;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+
+}
+
+.username>input {
+    width: 53vh;
+    height: 4vh;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0px 0px 0px 10px;
+    margin-left: 8px;
+    background-color: rgb(176, 173, 173);
+}
+
+
+.mobileno>input {
+    width: 53vh;
+    height: 4vh;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0px 0px 0px 10px;
+    margin-left: 8px;
+    background-color: rgb(176, 173, 173);
+}
+
+.email>input{
+    width: 53vh;
+    height: 4vh;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0px 0px 0px 10px;
+    margin-left: 8px;
+    background-color: rgb(176, 173, 173);
+}
+
+.dob>input {
+    width: 53vh;
+    height: 4vh;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0px 0px 0px 10px;
+    margin-left: 8px;
+    cursor: pointer;
+    background-color: rgb(176, 173, 173);
+}
+
+.district>select {
+    width: 40vh;
+    height: 4vh;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0px 0px 0px 10px;
+    margin-left: 8px;
+    cursor: pointer;
+    background-color: rgb(176, 173, 173);
+}
+
+.select-blood>select {
+    width: 40vh;
+    height: 4vh;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0px 0px 0px 10px;
+    margin-left: 8px;
+    cursor: pointer;
+    background-color: rgb(176, 173, 173);
+}
+
+button {
+    width: 18vh;
+    height: 4vh;
+    border-radius: 1rem;
+    border: none;
+    background-color: greenyellow;
+    font-size: 16px;
+    margin-left: 25vh;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
