@@ -75,7 +75,7 @@ body {
     border: none;
     padding: 0px 0px 0px 10px;
     margin-left: 8px;
-    background-color: rgb(176, 173, 173);
+    background-color: rgb(235, 235, 235);
 }
 
 
@@ -86,7 +86,7 @@ body {
     border: none;
     padding: 0px 0px 0px 10px;
     margin-left: 8px;
-    background-color: rgb(176, 173, 173);
+    background-color: rgb(235, 235, 235);
 }
 
 .email>input{
@@ -96,7 +96,7 @@ body {
     border: none;
     padding: 0px 0px 0px 10px;
     margin-left: 8px;
-    background-color: rgb(176, 173, 173);
+    background-color: rgb(235, 235, 235);
 }
 
 .dob>input {
@@ -107,7 +107,7 @@ body {
     padding: 0px 0px 0px 10px;
     margin-left: 8px;
     cursor: pointer;
-    background-color: rgb(176, 173, 173);
+    background-color: rgb(235, 235, 235);
 }
 
 .district>select {
@@ -118,7 +118,7 @@ body {
     padding: 0px 0px 0px 10px;
     margin-left: 8px;
     cursor: pointer;
-    background-color: rgb(176, 173, 173);
+    background-color: rgb(235, 235, 235);
 }
 
 .select-blood>select {
@@ -129,7 +129,7 @@ body {
     padding: 0px 0px 0px 10px;
     margin-left: 8px;
     cursor: pointer;
-    background-color: rgb(176, 173, 173);
+    background-color: rgb(235, 235, 235);
 }
 
 button {
