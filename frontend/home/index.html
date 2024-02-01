@@ -59,7 +59,9 @@
                 <form>
                     <h1>Sign-in</h1>
                     <input type="text" class="username" placeholder="Username"><br>
-                    <input type="password" class="pass" placeholder="Password">
+                    <input type="password" class="pass" placeholder="Password" id="inputPass"><br>
+                    <input type="checkbox" onclick="showPass()" class="show"><p class="passShow">show password</p>
+
                     <div class="login">
                         <a href="/RaktVeer.org/frontend/login -page/index.html" target="_blank">Login</a>
                     </div>
@@ -67,7 +69,7 @@
                         <div class="login-google"></div>
                         <div class="login-instagram"></div>
                     </div>
-                    <button>Submit</button>
+                    <button onclick="submitFun()" class="submit">Submit</button>
                 </form>
             </div>
         </div>
